@@ -6,7 +6,7 @@
 #if defined(ESP32)
 
 #include <Arduino.h>
-#if defined( WIFI_Kit_32 ) || defined( WIFI_LoRa_32 ) || defined( WIFI_LoRa_32_V2 ) || defined( Wireless_Stick )
+#if defined( WIFI_Kit_32 ) || defined( WIFI_LoRa_32 ) || defined( WIFI_LoRa_32_V2 ) || defined( Wireless_Stick ) || defined( WIFI_LoRa_32_V3 )
 #include <Wire.h>
 #include "oled/SSD1306Wire.h"
 #endif
